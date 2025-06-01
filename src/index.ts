@@ -2,6 +2,7 @@
 import { SingletonExample } from './examples/SingletonExample';
 import { PlayGame } from './examples/snake-and-ladder/play-game';
 import { VehicleExample } from './examples/VehicleExample';
+import { ParkingMain } from './examples/parking-lot/parking-main';
 
 
 console.log('🚀 LLD TypeScript Project Started!');
@@ -21,6 +22,11 @@ singletonExample.demonstrate();
 console.log('\n📝 Example 3: Snake and Ladder');
 const playGame = new PlayGame();
 playGame.play();
+
+// Example 4: Parking Lot
+console.log('\n📝 Example 4: Parking Lot');
+const parkingMain = new ParkingMain();
+parkingMain.main();
 
 
 
