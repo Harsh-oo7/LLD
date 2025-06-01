@@ -3,6 +3,7 @@ import { SingletonExample } from './examples/SingletonExample';
 import { PlayGame } from './examples/snake-and-ladder/play-game';
 import { VehicleExample } from './examples/VehicleExample';
 import { ParkingMain } from './examples/parking-lot/parking-main';
+import { PlayGame as PlayTicTacToeGame } from './examples/tic-tac-toe/play-game';
 
 
 console.log('🚀 LLD TypeScript Project Started!');
@@ -27,6 +28,12 @@ playGame.play();
 console.log('\n📝 Example 4: Parking Lot');
 const parkingMain = new ParkingMain();
 parkingMain.main();
+
+// Example 5: Tic Tac Toe
+console.log('\n📝 Example 5: Tic Tac Toe');
+const playTicTacToeGame = new PlayTicTacToeGame();
+playTicTacToeGame.main();
+
 
 
 
