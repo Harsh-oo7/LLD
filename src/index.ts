@@ -4,6 +4,7 @@ import { PlayGame } from './examples/snake-and-ladder/play-game';
 import { VehicleExample } from './examples/VehicleExample';
 import { ParkingMain } from './examples/parking-lot/parking-main';
 import { PlayGame as PlayTicTacToeGame } from './examples/tic-tac-toe/play-game';
+import { StrategyExample } from './patterns/behavioral/strategy/main';
 
 
 console.log('🚀 LLD TypeScript Project Started!');
@@ -34,7 +35,10 @@ console.log('\n📝 Example 5: Tic Tac Toe');
 const playTicTacToeGame = new PlayTicTacToeGame();
 playTicTacToeGame.main();
 
-
+// Example 6: Strategy Pattern
+console.log('\n📝 Example 6: Strategy Pattern');
+const strategyExample = new StrategyExample();
+strategyExample.demonstrate();
 
 
 console.log('\n✅ All examples completed successfully!');
