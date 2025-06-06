@@ -6,6 +6,7 @@ import { ParkingMain } from './examples/parking-lot/parking-main';
 import { PlayGame as PlayTicTacToeGame } from './examples/tic-tac-toe/play-game';
 import { StrategyExample } from './patterns/behavioral/strategy/main';
 import { ObserverExample } from "./patterns/behavioral/observer/main";
+import { DecoratorExample } from './patterns/structural/decorator/main';
 
 
 console.log('🚀 LLD TypeScript Project Started!');
@@ -45,6 +46,11 @@ strategyExample.demonstrate();
 console.log('\n📝 Example 7: Observer Pattern');
 const observerExample = new ObserverExample();
 observerExample.demonstrate();
+
+// Example 8: Decorator Pattern
+console.log('\n📝 Example 8: Decorator Pattern');
+const decoratorExample = new DecoratorExample();
+decoratorExample.demonstrate();
 
 
 console.log('\n✅ All examples completed successfully!');
