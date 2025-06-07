@@ -8,6 +8,7 @@ import { StrategyExample } from './patterns/behavioral/strategy/main';
 import { ObserverExample } from "./patterns/behavioral/observer/main";
 import { DecoratorExample } from './patterns/structural/decorator/main';
 import { FactoryExample } from './patterns/creational/factory/main';
+import { ChainOfResponsibilityExample } from './patterns/behavioral/chain-of-responsibility/main';
 
 
 console.log('🚀 LLD TypeScript Project Started!');
@@ -57,6 +58,11 @@ decoratorExample.demonstrate();
 console.log('\n📝 Example 9: Factory Pattern');
 const factoryExample = new FactoryExample();
 factoryExample.demonstrate();
+
+// Example 10: Chain of Responsibility Pattern
+console.log('\n📝 Example 10: Chain of Responsibility Pattern');
+const chainOfResponsibilityExample = new ChainOfResponsibilityExample();
+chainOfResponsibilityExample.demonstrate();
 
 
 console.log('\n✅ All examples completed successfully!');
