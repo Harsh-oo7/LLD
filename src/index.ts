@@ -10,6 +10,7 @@ import { DecoratorExample } from './patterns/structural/decorator/main';
 import { FactoryExample } from './patterns/creational/factory/main';
 import { ChainOfResponsibilityExample } from './patterns/behavioral/chain-of-responsibility/main';
 import { ProxyExample } from './patterns/structural/proxy/main';
+import { StateDemo } from './patterns/behavioral/state/main';
 
 
 console.log('🚀 LLD TypeScript Project Started!');
@@ -69,6 +70,11 @@ chainOfResponsibilityExample.demonstrate();
 console.log('\n📝 Example 11: Proxy Pattern');
 const proxyExample = new ProxyExample();
 proxyExample.demonstrate();
+
+// Example 12: State Pattern
+console.log('\n📝 Example 12: State Pattern');
+const stateDemo = new StateDemo();
+stateDemo.demonstrate();
 
 
 console.log('\n✅ All examples completed successfully!');
