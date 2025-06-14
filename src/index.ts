@@ -13,6 +13,7 @@ import { ProxyExample } from './patterns/structural/proxy/main';
 import { StateDemo } from './patterns/behavioral/state/main';
 import { CompositeExample } from './patterns/structural/composite/main';
 import { AdapterExample } from './patterns/structural/adapter/main';
+import { BuilderExample } from './patterns/creational/builder/main';
 
 
 console.log('🚀 LLD TypeScript Project Started!');
@@ -87,6 +88,11 @@ compositeExample.demonstrate();
 console.log('\n📝 Example 14: Adapter Pattern');
 const adapterExample = new AdapterExample();
 adapterExample.demonstrate();
+
+// Example 15: Builder Pattern
+console.log('\n📝 Example 15: Builder Pattern');
+const builderExample = new BuilderExample();
+builderExample.demonstrate();
 
 
 console.log('\n✅ All examples completed successfully!');
