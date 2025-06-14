@@ -18,6 +18,7 @@ import { FacadeExample } from './patterns/structural/facade/main';
 import { BridgeExample } from './patterns/structural/bridge/main';
 import { FlyweightExample } from './patterns/structural/flyweight/main';
 import { CommandExample } from './patterns/behavioral/command/main';
+import { MediatorExample } from './patterns/behavioral/mediator/main';
 
 console.log('🚀 LLD TypeScript Project Started!');
 console.log('=====================================');
@@ -116,6 +117,11 @@ flyweightExample.demonstrate();
 console.log('\n📝 Example 19: Command Pattern');
 const commandExample = new CommandExample();
 commandExample.demonstrate();
+
+// Example 20: Mediator Pattern
+console.log('\n📝 Example 20: Mediator Pattern');
+const mediatorExample = new MediatorExample();
+mediatorExample.demonstrate();
 
 console.log('\n✅ All examples completed successfully!');
 console.log('💡 Start building your LLD patterns in the src/ directory'); 
