@@ -14,6 +14,7 @@ import { StateDemo } from './patterns/behavioral/state/main';
 import { CompositeExample } from './patterns/structural/composite/main';
 import { AdapterExample } from './patterns/structural/adapter/main';
 import { BuilderExample } from './patterns/creational/builder/main';
+import { FacadeExample } from './patterns/structural/facade/main';
 
 
 console.log('🚀 LLD TypeScript Project Started!');
@@ -93,6 +94,11 @@ adapterExample.demonstrate();
 console.log('\n📝 Example 15: Builder Pattern');
 const builderExample = new BuilderExample();
 builderExample.demonstrate();
+
+// Example 16: Facade Pattern
+console.log('\n📝 Example 16: Facade Pattern');
+const facadeExample = new FacadeExample();
+facadeExample.demonstrate();
 
 
 console.log('\n✅ All examples completed successfully!');
