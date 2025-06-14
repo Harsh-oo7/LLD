@@ -20,6 +20,7 @@ import { FlyweightExample } from './patterns/structural/flyweight/main';
 import { CommandExample } from './patterns/behavioral/command/main';
 import { MediatorExample } from './patterns/behavioral/mediator/main';
 import { MementoExample } from './patterns/behavioral/memento/main';
+import { InterpreterExample } from './patterns/behavioral/interpreter/main';
 
 console.log('🚀 LLD TypeScript Project Started!');
 console.log('=====================================');
@@ -128,6 +129,11 @@ mediatorExample.demonstrate();
 console.log('\n📝 Example 21: Memento Pattern');
 const mementoExample = new MementoExample();
 mementoExample.demonstrate();
+
+// Example 22: Interpreter Pattern
+console.log('\n📝 Example 22: Interpreter Pattern');
+const interpreterExample = new InterpreterExample();
+interpreterExample.demonstrate();
 
 console.log('\n✅ All examples completed successfully!');
 console.log('💡 Start building your LLD patterns in the src/ directory'); 
