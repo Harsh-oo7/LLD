@@ -15,7 +15,7 @@ import { CompositeExample } from './patterns/structural/composite/main';
 import { AdapterExample } from './patterns/structural/adapter/main';
 import { BuilderExample } from './patterns/creational/builder/main';
 import { FacadeExample } from './patterns/structural/facade/main';
-
+import { BridgeExample } from './patterns/structural/bridge/main';
 
 console.log('🚀 LLD TypeScript Project Started!');
 console.log('=====================================');
@@ -99,6 +99,11 @@ builderExample.demonstrate();
 console.log('\n📝 Example 16: Facade Pattern');
 const facadeExample = new FacadeExample();
 facadeExample.demonstrate();
+
+// Example 17: Bridge Pattern
+console.log('\n📝 Example 17: Bridge Pattern');
+const bridgeExample = new BridgeExample();
+bridgeExample.demonstrate();
 
 
 console.log('\n✅ All examples completed successfully!');
