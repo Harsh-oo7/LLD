@@ -11,6 +11,7 @@ import { FactoryExample } from './patterns/creational/factory/main';
 import { ChainOfResponsibilityExample } from './patterns/behavioral/chain-of-responsibility/main';
 import { ProxyExample } from './patterns/structural/proxy/main';
 import { StateDemo } from './patterns/behavioral/state/main';
+import { CompositeExample } from './patterns/structural/composite/main';
 
 
 console.log('🚀 LLD TypeScript Project Started!');
@@ -75,6 +76,11 @@ proxyExample.demonstrate();
 console.log('\n📝 Example 12: State Pattern');
 const stateDemo = new StateDemo();
 stateDemo.demonstrate();
+
+// Example 13: Composite Pattern
+console.log('\n📝 Example 13: Composite Pattern');
+const compositeExample = new CompositeExample();
+compositeExample.demonstrate();
 
 
 console.log('\n✅ All examples completed successfully!');
