@@ -16,6 +16,7 @@ import { AdapterExample } from './patterns/structural/adapter/main';
 import { BuilderExample } from './patterns/creational/builder/main';
 import { FacadeExample } from './patterns/structural/facade/main';
 import { BridgeExample } from './patterns/structural/bridge/main';
+import { FlyweightExample } from './patterns/structural/flyweight/main';
 
 console.log('🚀 LLD TypeScript Project Started!');
 console.log('=====================================');
@@ -105,6 +106,10 @@ console.log('\n📝 Example 17: Bridge Pattern');
 const bridgeExample = new BridgeExample();
 bridgeExample.demonstrate();
 
+// Example 18: Flyweight Pattern
+console.log('\n📝 Example 18: Flyweight Pattern');
+const flyweightExample = new FlyweightExample();
+flyweightExample.demonstrate();
 
 console.log('\n✅ All examples completed successfully!');
 console.log('💡 Start building your LLD patterns in the src/ directory'); 
