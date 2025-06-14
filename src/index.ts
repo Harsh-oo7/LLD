@@ -12,6 +12,7 @@ import { ChainOfResponsibilityExample } from './patterns/behavioral/chain-of-res
 import { ProxyExample } from './patterns/structural/proxy/main';
 import { StateDemo } from './patterns/behavioral/state/main';
 import { CompositeExample } from './patterns/structural/composite/main';
+import { AdapterExample } from './patterns/structural/adapter/main';
 
 
 console.log('🚀 LLD TypeScript Project Started!');
@@ -81,6 +82,11 @@ stateDemo.demonstrate();
 console.log('\n📝 Example 13: Composite Pattern');
 const compositeExample = new CompositeExample();
 compositeExample.demonstrate();
+
+// Example 14: Adapter Pattern
+console.log('\n📝 Example 14: Adapter Pattern');
+const adapterExample = new AdapterExample();
+adapterExample.demonstrate();
 
 
 console.log('\n✅ All examples completed successfully!');
